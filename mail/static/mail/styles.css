@@ -1,0 +1,182 @@
+.email {
+    border: 1px solid #ddd;  
+    padding: 10px;           
+    margin-bottom: 8px;      
+    cursor: pointer;         
+    border-radius: 5px;      
+    transition: background-color 0.3s; 
+}
+
+.email:hover {
+    background-color: #f1f1f1; 
+}
+
+.email strong {
+    display: inline-block;
+    width: 70px;
+}
+
+
+button {
+    background: none;       
+    border: none;             
+    color: inherit;          
+    font: inherit;           
+    cursor: pointer;        
+    padding: 5px;            
+    margin-right: 10px;      
+}
+
+button:focus {
+    outline: none;         
+}
+
+button:hover {
+    text-decoration: underline; 
+}
+
+
+.nav-bar {
+    display: flex;              
+    justify-content: start;    
+    padding: 10px 20px;         
+    background-color: #a6a6a6;   
+    border-bottom: 1px solid #ddd; 
+    margin-bottom: 20px;        
+}
+
+
+.nav-bar button {
+    margin-right: 15px;         
+}
+
+
+.email {
+    display: flex;                  
+    justify-content: space-between; 
+    align-items: center;            
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.email-details {
+    max-width: 75%;                
+}
+
+
+.email-timestamp {
+    color: #888;                    
+    font-size: 0.9em;             
+    text-align: right;
+}
+
+
+.google-button {
+    background-color: white;
+    color: #5f6368;                   
+    border: 1px solid #dadce0;        
+    border-radius: 4px;               
+    padding: 8px 16px;               
+    font-size: 14px;                  
+    font-weight: 500;              
+    cursor: pointer;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.2s; 
+}
+
+.google-button:hover {
+    background-color: #f8f9fa;         
+}
+
+.google-button:focus {
+    outline: none;                    
+    box-shadow: 0px 0px 3px #4285f4;   
+}
+
+
+#compose-form {
+    display: flex;
+    flex-direction: column;   
+    gap: 10px;                 
+    max-width: 500px;          
+    margin: 0 auto;            
+}
+
+#compose-form input, 
+#compose-form textarea {
+    width: 100%;               
+    padding: 10px;             
+    font-size: 14px;          
+    border: 1px solid #dadce0; 
+    border-radius: 4px;       
+    box-sizing: border-box;    
+}
+
+#compose-form textarea {
+    resize: vertical;         
+    min-height: 100px;        
+}
+
+.compose-container {
+    max-width: 500px;          
+    margin: 0 auto;            
+}
+
+
+.compose-header {
+    margin-bottom: 10px;       
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;          
+    padding-left: 2px;         
+}
+
+#compose-body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    white-space: pre-wrap; 
+}
+
+
+.app-wrapper {
+    display: flex;
+    width: 100%;
+}
+
+
+.sidebar {
+    width: 15%;                 
+    background-color: #505050;        
+    height: 100vh;               
+}
+
+
+.main-content {
+    width: 70%;              
+    padding: 20px;               
+    background-color: #ffffff;      
+    box-sizing: border-box;      
+}
+
+
+header a {
+    text-decoration: none;   
+    color: inherit;           
+    font-weight: bold;         
+    margin-right: 15px;         
+    transition: color 0.3s;    
+}
+
+header a:visited {
+    color: inherit;             
+}
+
+header a:hover {
+    text-decoration: underline; 
+}
